@@ -62,7 +62,7 @@ public class MyPanel extends JPanel implements MouseListener{
 
 	@Override
 	public void mouseReleased(MouseEvent e) {
-		// TODO Auto-generated method stub
+		bearArena.pointReleased(e);
 		
 	}
 

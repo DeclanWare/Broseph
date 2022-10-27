@@ -40,4 +40,9 @@ public class Arena {
 	public void pointIndicated(MouseEvent e) {
 		player.pointIndicated(e);
 	}
+
+	public void pointReleased(MouseEvent e) {
+		player.pointReleased(e);
+		
+	}
 }
